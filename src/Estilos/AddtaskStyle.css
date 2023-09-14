@@ -1,0 +1,51 @@
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #21fdb3;
+}
+
+.div-plus i:hover {
+  cursor: pointer;
+}
+
+.div-top {
+  width: 100%;
+}
+
+.btn-addtsk {
+  border: none;
+  width: 120px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background-color: #21fdb3;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  transition: background 2s;
+}
+
+.btn-addtsk:hover {
+  cursor: pointer;
+  background-color: rgb(125, 192, 251);
+}
+
+.btn-add:hover {
+  cursor: pointer;
+}
+.inpt-add {
+  border: none;
+  background-color: #21fdb3;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+  transition: background 1s;
+}
+
+.div-top input:focus {
+  border: none;
+  outline: none;
+  background-color: #71fecf;
+}
